@@ -1,5 +1,5 @@
-Hello, I'm  blazter1324. 
-Welcome to my webpage 
+<h1>Hello, I'm  blazter1324. 
+Welcome to my webpage.</h1>
 
 <p>Join My cool team now</p>
 <p><a href="https://discord.gg/JxNZD2kRFb">Click me to join now</a></p>
