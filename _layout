@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+	<link rel="stylesheet" href="{{ site.baseurl }}/style.css">
+  </head>
+  <body>
+    <nav>
+	  <a href="{{ site.url }}">Home</a>
+	  <a class="dropdown-btn">Random Stuff</a>
+	    <div class="dropdown-container">
+		  <a href="https://discord.gg/qVWaKRMCRc">Borgy's Discord Server</a>
+        </div>
+  
