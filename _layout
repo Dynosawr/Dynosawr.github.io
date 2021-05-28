@@ -3,7 +3,6 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <title>{{ page.title }} - {{ site.title }}</title>
 	<link rel="stylesheet" href="{{ site.baseurl }}/style.css">
   </head>
   <body>
@@ -12,5 +11,11 @@
 	  <a class="dropdown-btn">Random Stuff</a>
 	    <div class="dropdown-container">
 		  <a href="https://discord.gg/qVWaKRMCRc">Borgy's Discord Server</a>
-        </div>
-  
+    </div>		
+    </nav>  
+	<main>
+      {{ content }}
+	</main>
+	<script src="{{ site.baseurl }}/scripts.js"></script>
+  </body>
+</html>
