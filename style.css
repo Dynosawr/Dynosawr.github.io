@@ -175,8 +175,8 @@ td {
 
 .tab {
   overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
+  border: 1px solid #009e88;
+  background-color: #ffffff;
 }
 
 .tab button {
@@ -190,11 +190,11 @@ td {
 }
 
 .tab button:hover {
-  background-color: #ddd;
+  background-color: #009e88;
 }
 
 .tab button.active {
-  background-color: #ccc;
+  background-color: #ffffff;
 }
 
 .tabcontent {
