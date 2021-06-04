@@ -1,4 +1,5 @@
 nav {
+  font-family: Arial
   position: absolute;
   height: 100%;
   width: 200px;
@@ -12,6 +13,7 @@ nav {
 }
 
 nav a, .dropdown-btn {
+  font-family: Arial
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 20px;
@@ -41,10 +43,12 @@ nav a:hover, .dropdown-btn:hover {
 }
 
 body {
+  font-family: Arial
   background-color: #ffffff;
 }
 
 main {
+  font-family: Arial
   margin-left: 13%; /* Same as the width of the sidenav */
   font-size: 20px; /* Increased text to enable scrolling */
   padding: 0px 10px;
@@ -52,6 +56,7 @@ main {
 
 @media only screen and (max-width: 1240px){
   main {
+    font-family: Arial
     margin-left: 17.5%; /* Same as the width of the sidenav */
     font-size: 20px; /* Increased text to enable scrolling */
     padding: 0px 10px;
@@ -60,6 +65,7 @@ main {
 
 @media only screen and (max-width: 1080px){
   main {
+    font-family: Arial
     margin-left: 20%; /* Same as the width of the sidenav */
     font-size: 20px; /* Increased text to enable scrolling */
     padding: 0px 10px;
@@ -68,6 +74,7 @@ main {
 
 @media only screen and (max-width: 940px){
   main {
+    font-family: Arial
     margin-left: 22.5%; /* Same as the width of the sidenav */
     font-size: 20px; /* Increased text to enable scrolling */
     padding: 0px 10px;
@@ -76,6 +83,7 @@ main {
 
 @media only screen and (max-width: 850px){
   main {
+    font-family: Arial
     margin-left: 25%; /* Same as the width of the sidenav */
     font-size: 20px; /* Increased text to enable scrolling */
     padding: 0px 10px;
@@ -84,6 +92,7 @@ main {
 
 @media only screen and (max-width: 750px){
   main {
+    font-family: Arial
     margin-left: 27.5%; /* Same as the width of the sidenav */
     font-size: 20px; /* Increased text to enable scrolling */
     padding: 0px 10px;
@@ -92,6 +101,7 @@ main {
 
 @media only screen and (max-width: 700px){
   main {
+    font-family: Arial
     margin-left: 30%; /* Same as the width of the sidenav */
     font-size: 20px; /* Increased text to enable scrolling */
     padding: 0px 10px;
@@ -100,6 +110,7 @@ main {
 
 @media only screen and (max-width: 640px){
   main {
+    font-family: Arial
     margin-left: 32.5%; /* Same as the width of the sidenav */
     font-size: 20px; /* Increased text to enable scrolling */
     padding: 0px 10px;
@@ -108,6 +119,7 @@ main {
 
 @media only screen and (max-width: 600px){
   main {
+    font-family: Arial
     margin-left: 35%; /* Same as the width of the sidenav */
     font-size: 20px; /* Increased text to enable scrolling */
     padding: 0px 10px;
@@ -153,12 +165,14 @@ main {
   right:0;top:0
 }
 table.bordered tr td {
+  font-family: Arial
   border: 1px solid black;
   border-collapse: collapse;
   text-align: center;
 }
 
 table.bordered tr th {
+  font-family: Arial
   border: 1px solid black;
   border-collapse: collapse;
   text-align: center;
