@@ -7,4 +7,4 @@
   <body>
 <h1>Cube Simulator</h1>
 <p>Good game for people who are stressed or bored.</p>
-    <p style="text-align: center;"><iframe style="margin: auto; width: 350px; height: 350px; overflow: hidden;" src="/demo/css3-cube/" width="400" height="400" scrolling="no">Iframes not supported</iframe></p>
+    <p style="text-align: center;"><iframe style="margin: auto; width: 350px; height: 350px; overflow: hidden;" src="https:html-online/demo/css3-cube/" width="400" height="400" scrolling="no">Iframes not supported</iframe></p>
