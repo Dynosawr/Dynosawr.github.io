@@ -1,4 +1,4 @@
-<a href="{base.url}/swatter" target="_blank" id="flyFrame">
+<a href="{{ site.url}}" target="_blank" id="flyFrame">
 	<div id="wrapCloseFly">
 		<div id="closeFly">
 			x
