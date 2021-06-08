@@ -1,0 +1,108 @@
+#wrapCloseFly {
+	position: absolute;
+	right: 10px;
+	top: -10px;
+	margin: 0;
+	z-index: 99;
+	display: block;
+}
+#closeFly {
+	font-weight: bold;
+	text-decoration: none !important;
+	background: #ddd;
+	width: 25px;
+	display: inline-block;
+	height: 25px;
+	margin: 0;
+	line-height: 23px;
+	font-size: 30px;
+	text-align: center;
+	border-radius: 20px;
+	border: 2px solid #0645ad;
+	cursor: pointer;
+	color: #0645ad;
+}
+#closeFly:hover {
+	color: #ffffff;
+	background: #0645ad;
+}
+#flyFrame {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 300px;
+	display: block;
+	height: 340px;
+	background: #F3F3F3;
+	margin: 20px auto;
+	position: relative;
+	border-radius: 10px;
+	border: 1px solid #ddd;
+}
+#flyFrame:hover, #flyFrame a:hover {
+	cursor: url(swatter.png) 25 90, auto;
+	-webkit-transition: width 2s;
+	transition: width 2s;
+}
+#flyFrame:hover #swatter {
+	display: none;
+}
+#flyLink {
+	top: 200px;
+	left: 200px;
+	position: absolute;
+	height: 50px;
+	padding: 17px 0 2px 3px;
+	width: 50px;	
+}
+#flyLink:hover {
+	background: url(target.png) center center no-repeat transparent;
+}
+#fly {
+	transform: rotate(-30deg);
+}
+em#gplink {
+	display: none;
+	right: 5px;
+	bottom: 0px;
+	font-family: Arial;
+	position: absolute;
+	font-size: 11px;
+	color: #1746a2;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 3px 6px;
+	cursor: pointer !important;
+}
+#flyFrame:hover em#gplink {
+	display: inline-block;
+}
+em#gplink:hover {
+	text-decoration: underline;
+}
+#swatter {
+	position: absolute;
+	animation: swatterX 15s infinite, swatterY 2s infinite;
+}
+@keyframes swatterX {
+	0%	{   left: 50px;	}
+	50%	{   left: 150px;	}
+	100% {	left: 50px;	}
+}
+@keyframes swatterY {
+	0%	{   top: 5px;	}
+	50%	{   top: 30px;	}
+	100% {	top: 5px;	}
+}
+#flyLink {
+	animation: flyPosition 13s infinite;
+	animation-timing-function: linear;
+	/*animation-delay: -35s;*/
+}
+#fly {
+	animation: fly 13s infinite;
+	animation-timing-function: linear;
+	/*animation-delay: -35s;*/
+}
+@keyframes flyPosition {0%{top: 200px;left: 200px;}4%{top: 150px;left: 150px;}6%{top: 155px;left: 130px;}10%{top: 135px;left: 50px;}13%{top: 140px;left: 10px;}14%{top: 140px;left: 10px;}17%{top: 150px;left: 8px;}19%{top: 180px;left: 5px;}23%{top: 220px;left: 5px;}25%{top: 225px;left: 15px;}26%{top: 235px;left: 25px;}30%{top: 265px;left: 55px;}31%{top: 270px;left: 65px;}35%{top: 280px;left: 100px;}39%{top: 280px;left: 140px;}40%{top: 278px;left: 150px;}42%{top: 274px;left: 160px;}44%{top: 265px;left: 175px;}46%{top: 250px;left: 180px;}48%{top: 230px;left: 182px;}52%{top: 200px;left: 182px;}54%{top: 180px;left: 180px;}56%{top: 160px;left: 170px;}58%{top: 140px;left: 170px;}60%{top: 123px;left: 175px;}62%{top: 118px;left: 185px;}63%{top: 118px;left: 185px;}64%{top: 115px;left: 195px;}66%{top: 115px;left: 215px;}68%{top: 118px;left: 232px;}70%{top: 118px;left: 252px;}72%{top: 118px;left: 252px;}74%{top: 125px;left: 255px;}75%{top: 140px;left: 260px;}77%{top: 165px;left: 260px;}79%{top: 180px;left: 257px;}81%{top: 195px;left: 253px;}83%{top: 195px;left: 253px;}85%{top: 210px;left: 243px;}86%{top: 220px;left: 243px;}88%{top: 240px;left: 243px;}89%{top: 240px;left: 243px;}90%{top: 245px;left: 238px;}91%{top: 250px;left: 228px;}92%{top: 250px;left: 218px;}94%{top: 250px;left: 208px;}96%{top: 240px;left: 200px;}97%{top: 230px;left: 200px;}100%{top: 200px;left: 200px;}
+}
+@keyframes fly {0%{transform: rotate(315deg);}4%{transform: rotate(315deg);}6%{transform: rotate(295deg);}10%{transform: rotate(275deg);}13%{transform: rotate(260deg);}14%{transform: rotate(260deg);}17%{transform: rotate(220deg);}19%{transform: rotate(180deg);}23%{transform: rotate(180deg);}25%{transform: rotate(160deg);}26%{transform: rotate(135deg);}30%{transform: rotate(135deg);}31%{transform: rotate(105deg);}35%{transform: rotate(105deg);}39%{transform: rotate(90deg);}40%{transform: rotate(80deg);}42%{transform: rotate(70deg);}44%{transform: rotate(45deg);}46%{transform: rotate(25deg);}48%{transform: rotate(0deg);}52%{transform: rotate(0deg);}54%{transform: rotate(-20deg);}56%{transform: rotate(-30deg);}58%{transform: rotate(0deg);}60%{transform: rotate(20deg);}62%{transform: rotate(45deg);}63%{transform: rotate(45deg);}64%{transform: rotate(80deg);}66%{transform: rotate(90deg);}68%{transform: rotate(95deg);}70%{transform: rotate(90deg);}72%{transform: rotate(90deg);}74%{transform: rotate(130deg);}75%{transform: rotate(150deg);}77%{transform: rotate(180deg);}79%{transform: rotate(190deg);}81%{transform: rotate(190deg);}83%{transform: rotate(190deg);}85%{transform: rotate(200deg);}86%{transform: rotate(180deg);}88%{transform: rotate(180deg);}89%{transform: rotate(200deg);}90%{transform: rotate(225deg);}91%{transform: rotate(250deg);}92%{transform: rotate(270deg);}94%{transform: rotate(300deg);}96%{transform: rotate(325deg);}97%{transform: rotate(360deg);}100%{transform: rotate(315deg);}
+}
