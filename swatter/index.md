@@ -2,7 +2,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-	<link rel="stylesheet" href="{{ site.baseurl }}/swatter.css">
+	<link rel="stylesheet" href="{{ site.baseurl }}/swatter/swatter.css">
   </head>
   <body>
     <a href="{{ site.baseurl }}" target="_blank" id="flyFrame">
