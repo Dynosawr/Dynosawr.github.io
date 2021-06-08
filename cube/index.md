@@ -5,6 +5,8 @@
 	<link rel="stylesheet" href="{{ site.baseurl }}/cube/cube.css">
   </head>
   <body>
+<h1>Cube Simulator</h1>
+<p>Good game for peoplr who is stressed or bored</p>
     <div id="wrapD3Cube">
     <div id="D3Cube">
         <div id="side1"></div>
