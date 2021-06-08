@@ -20,6 +20,6 @@
     <a onclick="turnRight()">Right</a> <br />
     <a onclick="flipCube()">Flip</a>
 </p>
-    <script src="{{ site.baseurl }}/scripts.js"></script>
+    <script src="{{ site.baseurl }}/cube/cube.js"></script>
  </body>
 </html>
