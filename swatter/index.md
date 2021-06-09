@@ -10,7 +10,7 @@ title: ???
 	<link rel="stylesheet" href="{{ site.baseurl }}/swatter/swatter.css">
   </head>
   <body>
-    <a href="{{ site.baseurl }}" target="_blank" id="flyFrame">
+    <a href="{{ site.baseurl }}/swatter/swatter.png" target="_blank" id="flyFrame">
 	<div id="wrapCloseFly">
 		<div id="closeFly">
 			x
