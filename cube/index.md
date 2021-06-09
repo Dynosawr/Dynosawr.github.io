@@ -25,7 +25,7 @@ title: Home
 <p style="text-align: center;">
 	<a onclick="turnLeft()">Left</a>&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="turnRight()">Right</a> <br>
 	<a onclick="flipCube()">Flip</a> <br />
-	<a onclick="random()">???</a>
+	<a onclick="random()">Spin</a>
 </p>
 
 <script>
@@ -50,9 +50,7 @@ function flipCube() {
 	rotate("cubez", -180);
 }
 function random() {
-	rotate("cubez", -180);
-	rotate("cubey", -180);
-	rotate("cubex", -180);
+	rotate("cubex", 270);
 }
 </script>
 
