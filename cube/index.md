@@ -8,7 +8,7 @@ title: Home
 	<title>Cube Simulator</title>
 
 </head>
-<body>
+<body style="font-family:arial">
 
 <div id="wrapD3Cube">
 	<div id="D3Cube" style="transform: rotateX(-22deg) rotateY(-38deg) rotateZ(-180deg) translateX(0px) translateY(0px) translateZ(0px);">
