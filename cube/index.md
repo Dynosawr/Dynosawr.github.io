@@ -10,6 +10,8 @@ title: Home
 </head>
 <body style="font-family:arial">
 
+<h1>Cube Simulator</h1>
+<p>Good game for people who are bored or stressed.</p>
 <div id="wrapD3Cube">
 	<div id="D3Cube" style="transform: rotateX(-22deg) rotateY(-38deg) rotateZ(-180deg) translateX(0px) translateY(0px) translateZ(0px);">
 		<div id="side1"></div>
@@ -22,7 +24,8 @@ title: Home
 </div>
 <p style="text-align: center;">
 	<a onclick="turnLeft()">Left</a>&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="turnRight()">Right</a> <br>
-	<a onclick="flipCube()">Flip</a>
+	<a onclick="flipCube()">Flip</a> <br />
+	<a onclick="random()">???</a>
 </p>
 
 <script>
@@ -45,6 +48,11 @@ function turnLeft() {
 }
 function flipCube() {
 	rotate("cubez", -180);
+}
+function random() {
+	rotate("cubez", -180);
+	rotate("cubey", -180);
+	rotate("cubex", -180);
 }
 </script>
 
