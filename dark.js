@@ -4,11 +4,10 @@ const options = {
   left: 'unset', // default: 'unset'
   time: '0.5s', // default: '0.3s'
   mixColor: '#fff', // default: '#fff'
-  buttonColorDark: 'transparent',  // default: '#100f2c'
-  buttonColorLight: 'transparent', // default: '#fff'
+  buttonColorDark: '#100f2c',  // default: '#100f2c'
+  buttonColorLight: '#fff', // default: '#fff'
   saveInCookies: true, // default: true,
-  labelDark: '{{ site.baseurl }}/img/dark.png', // default: ''
-  labelLight:'{{ site.baseurl }}/img/light.png', // default: ''
+  label: '🌓', // default: ''
   autoMatchOsTheme: true // default: true
 }
 
