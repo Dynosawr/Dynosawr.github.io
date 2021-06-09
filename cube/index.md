@@ -25,7 +25,7 @@ title: Home
 <p style="text-align: center;">
 	<a onclick="turnLeft()">Left</a>&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="turnRight()">Right</a> <br>
 	<a onclick="flipCube()">Flip</a> <br />
-	<a onclick="randomLeft()">Drop Top To Left</a>&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="randomRight()">Drop Top To Right</a>
+	<a onclick="randomLeft()">Shift</a>
 </p>
 
 <script>
@@ -47,13 +47,10 @@ function turnLeft() {
 	rotate("cubey", -90);
 }
 function flipCube() {
-	rotate("cubez", -180);
-}
-function randomRight() {
-	rotate("cubex", 90);
+	rotate("cubex", -180);
 }
 function randomLeft() {
-	rotate("cubex", -90);
+	rotate("cubez", 270);
 }
 </script>
 
