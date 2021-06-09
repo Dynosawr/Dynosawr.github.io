@@ -1,8 +1,11 @@
-<!DOCTYPE html>
-<html lang="en"><head>
+---
+layout: default
+title: Home 
+---
+<html lang="{{ site.lang | default: "en-US" }}"><html lang="en"><head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-	<title>CSS3 3D Cube</title>
+	<title>Cube Simulator</title>
 
 </head>
 <body>
