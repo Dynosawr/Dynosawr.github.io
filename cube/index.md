@@ -51,8 +51,9 @@ function flipCube() {
 }
 function randomRight() {
 	rotate("cubex", 90);
+}
 function randomLeft() {
-	rotate("cubex", -90)
+	rotate("cubex", -90);
 }
 </script>
 
