@@ -49,67 +49,6 @@ function flipCube() {
 </script>
 
 <style>
-nav {
-  position: absolute;
-  height: 100%;
-  width: 200px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #009e88;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
-
-nav a, .dropdown-btn {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 20px;
-  color: #ffffff;
-  display: block;
-  border: none;
-  background: none;
-  width:100%;
-  text-align: left;
-  cursor: pointer;
-  outline: none;
-}
-
-nav a:hover, .dropdown-btn:hover {
-  color: #f1f1f1;
-}
-
-.active {
-  background-color: #009e88;
-  color: white;
-}
-
-.dropdown-container {
-  display: none;
-  background-color: #009e88;
-  padding-left: 8px;
-}
-
-body {
-  font-family: arial;
-  background-color: #ffffff;
-}
-input,select{vertical-align:middle}
-a, a:visited {
-    color: #0101d0;
-    font-weight: bold;
-    cursor: pointer;
-    font-size: 20px;
-    font-family: arial;
-    line-height: 20px;
-    display: inline-block;
-    padding: 10px;
-}
-a:hover {
-	color: #000;
-}
-
 #wrapD3Cube {
     width: 250px;
     height: 213px;
