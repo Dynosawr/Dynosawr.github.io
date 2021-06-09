@@ -26,3 +26,6 @@ title: Boring Bots
     <div class="wheel"></div>
   </div>
 </div>
+<script src="{{ site.baseurl }}/bot/scripts.js"></script>
+ </body>
+</html>
