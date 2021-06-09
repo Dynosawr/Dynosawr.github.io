@@ -1,3 +1,7 @@
+---
+layout: default
+title: Credits
+---
 <h1 style="font-family:arial">Credits</h1>
 <p style="font-famliy:arial">
  <ul>
