@@ -8,7 +8,7 @@ title: Home
     <title>Home</title>
     </head>
   <body>
-<h1 style="font-family:arial">Hello, I'm  blazter1324. 
+<h1 style="font-family:arial">Hello, I'm  blazter1324. <br />
 Welcome to my webpage.</h1>
 
 <p style="font-family:arial">Join My cool team now</p>
