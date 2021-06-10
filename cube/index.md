@@ -131,7 +131,5 @@ function randomLeft() {
 	background-color: #f2f215;
 }
 </style>
-
-
-
-</body></html>
+</body>
+</html>
