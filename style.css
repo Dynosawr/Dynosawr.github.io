@@ -119,6 +119,42 @@ main {
   }
 }
 
+@media only screen and (max-width: 440px){
+  nav {
+     width: 100px;
+     font-size: 10px;
+  }
+  main {
+    margin-left: 26%; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+}
+
+@media only screen and (max-width: 430px){
+  nav {
+     width: 100px;
+     font-size: 10px;
+  }
+  main {
+    margin-left: 30%; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+}
+
+@media only screen and (max-width: 770px){
+  nav {
+    width: 150px
+  }
+  main {
+    margin-left: 19.5%; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+}
+
+
 .popupModal {
   z-index:3;
   display:none;
