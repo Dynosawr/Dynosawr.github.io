@@ -131,5 +131,7 @@ function randomLeft() {
 	background-color: #f2f215;
 }
 </style>
+<span style="color:transparent">
 </body>
 </html>
+</span>
