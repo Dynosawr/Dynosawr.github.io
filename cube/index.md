@@ -32,8 +32,7 @@ title: Home
 		<li>Left/Right - Turn the Cube Left/Right.</li>
 		<li>Flip - Flip the Cube.</li>
 		<li>Shift - Shift the Cube</li>
-		<b>Note: You can't Shift Blue/Green tile.<br />
-		&nbsp;&nbsp;&nbsp;&nbsp; Right/Left button will reverse if you click on Flip</b>
+		<b>Note: You can't Shift Blue/Green tile.<br /></b>
 
 <script>
 var cubex = -22,	// initial rotation
