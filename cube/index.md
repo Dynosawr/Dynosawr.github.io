@@ -26,7 +26,13 @@ title: Home
 	<a onclick="turnLeft()">Left</a>&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="turnRight()">Right</a> <br>
 	<a onclick="flipCube()">Flip</a> <br />
 	<a onclick="randomLeft()">Shift</a>
-</p>
+</p> <hr />
+<h1>How to play</h1>
+	<ul>
+		<li>Left/Right - Turn the Cube Left/Right.</li>
+		<li>Flip - Flip the Cube.</li>
+		<li>Shift - Shift the Cube</li>
+		<b>Note: You can't Shift Blue/Green tile.</b>
 
 <script>
 var cubex = -22,	// initial rotation
