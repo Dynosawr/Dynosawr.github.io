@@ -54,7 +54,7 @@ function turnLeft() {
 	rotate("cubey", -90);
 }
 function flipCube() {
-	rotate("cubex", -180);
+	rotate("cubez", -180);
 }
 function randomLeft() {
 	rotate("cubez", 270);
