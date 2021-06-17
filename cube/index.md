@@ -24,9 +24,10 @@ title: Home
 	</div>
 </div>
 <p style="text-align: center;">
+	<span cursor: pointer>
 	<a onclick="turnLeft()">Left</a>&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="turnRight()">Right</a> <br>
 	<a onclick="flipCube()">Flip</a> <br />
-	<a onclick="randomLeft()">Shift</a>
+	<a onclick="randomLeft()">Shift</a></span>
 </p> <hr />
 <h1>How to play</h1>
 	<ul>
