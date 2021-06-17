@@ -37,7 +37,6 @@ nav a:hover, .dropdown-btn:hover {
 .dropdown-container {
   display: none;
   background-color: #009e88;
-  padding-left: 8px;
 }
 
 body {
