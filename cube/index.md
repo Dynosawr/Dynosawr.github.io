@@ -24,7 +24,7 @@ title: Home
 	</div>
 </div>
 <p style="text-align: center;">
-	<span cursor: pointer>
+	<span style="cursor:pointer">
 	<a onclick="turnLeft()">Left</a>&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="turnRight()">Right</a> <br>
 	<a onclick="flipCube()">Flip</a> <br />
 	<a onclick="randomLeft()">Shift</a></span>
