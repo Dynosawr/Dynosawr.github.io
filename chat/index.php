@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ???
+title: Chat
 ---
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
@@ -13,3 +13,4 @@ title: ???
     echo "ping pong";
     ?>
     </body>
+	</html>
