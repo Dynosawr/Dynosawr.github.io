@@ -9,8 +9,8 @@ title: Home
     <title>Home</title>
     </head>
   <body>
-<h1 style="font-family:arial">Hello, I'm  blazter1324.
-Welcome to my  <br />website.</h1>
+<h1 style="font-family:arial">Home</h1>
+    <p>Hi, I'm blazter1324 or Dynosawr. I like random things like this</p>
 
 <p style="font-family:arial">Join My cool team now</p>
 <p style="font-family:arial"><a href="https://discord.gg/ph6xtpGhUk" target="_blank">Click me to join now</a></p>
